@@ -13,6 +13,7 @@
 }
 
 /* Global styles */
+
 body {
     font-family: var(--primary-font);
 }
@@ -26,7 +27,16 @@ h1, h2, h3 {
     color: var(--highlight-color);
 }
 
-/* Temporary CSS for testing */
+/* Navbar */
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
+}
+
+/* Grid visualisation CSS for testing */
 /* .container, .row {
     border: 2px solid black;
 }
