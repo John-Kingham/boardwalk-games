@@ -15,7 +15,7 @@
 
 body {
     font-family: var(--primary-font);
-    padding-top: 57.55px; /* Push top of header down under fixed navbar */ 
+    padding-top: 57.55px; /* Push top of header down under fixed navbar */
 }
 
 h1,
@@ -140,26 +140,14 @@ h2 {
 
 #contact .social-links i:hover {
     color: var(--secondary-color);
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
 #contact .table-dark * {
     background-color: transparent;
 }
-
-/* grid visualisation CSS for testing */
-
-/* .container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
-
-/* Media queries */
 
 @media screen and (max-width: 767px) {
     /* Events */
