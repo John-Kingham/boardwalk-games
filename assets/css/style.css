@@ -67,7 +67,6 @@ h2 {
     color: white;
 }
 
-
 /* Navbar */
 
 #navbar {
@@ -77,8 +76,6 @@ h2 {
 #navbar .logo {
     width: 30px;
 }
-
-
 
 /* Header */
 
@@ -96,6 +93,15 @@ h2 {
 
 #services .card {
     margin-bottom: 1.5rem;
+}
+
+/* Events */
+
+#discount {
+    background-color: var(--highlight-color);
+    font-weight: bold;
+    color: white;
+    margin: 0 auto;
 }
 
 /* Game library cards */
@@ -154,6 +160,17 @@ h2 {
 } */
 
 /* Media queries */
+
+@media screen and (max-width: 767px) {
+    /* Events */
+    #events .table {
+        font-size: 0.7rem;
+    }
+
+    #discount {
+        font-size: 0.8rem;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
