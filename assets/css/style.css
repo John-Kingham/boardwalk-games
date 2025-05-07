@@ -42,6 +42,10 @@ h2 {
     padding-top: 4rem;
 }
 
+form {
+    margin-bottom: 4rem;
+}
+
 /* Buttons */
 
 .custom-button-filled {
