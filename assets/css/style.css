@@ -116,6 +116,13 @@ h2 {
 #testimonials figcaption {
     margin-top: 0.25rem;
 }
+
+#testimonials i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
 /* Game library cards */
 
 #new-games .card,
