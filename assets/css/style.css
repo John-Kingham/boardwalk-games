@@ -106,10 +106,16 @@ h2 {
 
 /* Testimonials */
 #testimonials .card {
-    margin-bottom: 1.5rem;
+    border: none;
 }
 
+#testimonials .card p {
+    font-size: 1rem;
+}
 
+#testimonials figcaption {
+    margin-top: 0.25rem;
+}
 /* Game library cards */
 
 #new-games .card,
@@ -156,13 +162,18 @@ h2 {
 }
 
 @media screen and (max-width: 767px) {
-    /* Events */
+    /* Events section */
     #events .table {
         font-size: 0.7rem;
     }
 
     #discount {
         font-size: 0.8rem;
+    }
+
+    /* Testimonials section */
+    #testimonials img {
+        display: none;
     }
 }
 
@@ -171,6 +182,12 @@ h2 {
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 191px;
+    }
+
+    /* Testimonials section */
+    /* Only show two testimonials on medium screens */
+    #testimonials > div > div:last-child {
+        display: none;
     }
 }
 
@@ -187,6 +204,12 @@ h2 {
     /* make all service cards the same height for consistency */
     #services .card-body {
         min-height: 220px;
+    }
+
+    /* Testimonials section */
+    /* Show all testimonials on XL screens */
+    #testimonials > div > div:last-child {
+        display: flex;
     }
 }
 
