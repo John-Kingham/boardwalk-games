@@ -229,6 +229,10 @@ h2 {
     #newsletter-heading {
         text-align: left;
     }
+
+    #contact button {
+        max-height: 38px;
+    }
 }
 
 /* xxl devices (larger desktops, 1400px and up) */
