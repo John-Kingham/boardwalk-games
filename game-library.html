@@ -44,7 +44,11 @@
 
     <body class="d-flex flex-column min-vh-100">
         <!-- Navigation -->
-        <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+        <nav
+            id="navbar"
+            class="navbar navbar-expand-lg fixed-top"
+            data-bs-theme="dark"
+        >
             <div class="container">
                 <a class="navbar-brand" href="index.html">
                     <img
@@ -70,7 +74,9 @@
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#services">Services</a>
+                            <a class="nav-link" href="index.html#services"
+                                >Services</a
+                            >
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="index.html#events"
@@ -574,6 +580,49 @@
                                 </tr>
                             </tbody>
                         </table>
+                    </div>
+                    <div class="col-12 col-md-8 mt-4">
+                        <h3 id="newsletter-heading" class="sub-heading-color">
+                            Sign up for our newsletter
+                        </h3>
+                        <form action="success.html" method="GET">
+                            <div class="row">
+                                <div class="col-12 col-lg-6 col-xl-5 mb-3">
+                                    <label for="name" class="form-label"
+                                        >Name</label
+                                    >
+                                    <input
+                                        class="form-control"
+                                        id="name"
+                                        name="name"
+                                        type="text"
+                                        required
+                                    />
+                                </div>
+                                <div class="col-12 col-lg-6 col-xl-5 mb-3">
+                                    <label for="email" class="form-label"
+                                        >Email</label
+                                    >
+                                    <input
+                                        class="form-control"
+                                        id="email"
+                                        name="email"
+                                        type="email"
+                                        required
+                                    />
+                                </div>
+                                <div
+                                    class="col-12 col-xl-2 d-flex justify-content-center align-items-end mb-3"
+                                >
+                                    <button
+                                        type="submit"
+                                        class="btn custom-button-filled"
+                                    >
+                                        Sign up!
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
